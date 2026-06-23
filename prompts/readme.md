@@ -45,17 +45,7 @@ _📌 Highlight these routine checks during the first orientation._
 *   **Security Risk**: Could any language, symbol, or metadata put learners, volunteers, or the organization at political or surveillance risk?
 
 
-Prompt: 
-
-```[DESCRIBE THE TASK IN ONE OR TWO SENTENCES]``` replace with:
-- "creating a one-page lesson plan about world cultures for non-English speaking learners"
-- "designing a recruitment poster for volunteers"
-- "translating a community notice from English to Arabic"
-
-```[DESCRIBE THE AUDIENCE]``` replace with:
-- "students aged 5-9 in a refugee camp"
-- "the general public on social media"
-- "community members who speak Arabic as a first language"
+## Base prompt
 
 ```
 I am a volunteer working on a humanitarian project. Help me think through the risks of a given task in plain, simple language.
@@ -79,13 +69,24 @@ say "No significant concern identified" rather than inventing one. Keep each ans
 3. WHO COULD BE HARMED: If this task goes wrong, who is the person or group most likely to be affected, and how?
 4. CULTURAL FIT: What is the single assumption you are most likely to be making that may not hold true for the audience described above?
 
-Then, across all four categories, name your TOP 3 CRITICAL RISKS overall - the ones that actually matter enough to act on, ranked by how
-serious they are. This list should be short by design; if you list more than 3, you have not filtered enough.
+Then, across all four categories, name your TOP 3 CRITICAL RISKS overall - the ones that actually matter enough to act on, ranked
+by how serious they are. This list should be short by design; if you list more than 3, you have not filtered enough.
 
-5. RED FLAG CHECK: Based only on those top 3 risks, is there anything serious enough that I should NOT use an AI tool for this task at all,
-or should only use it for part of the task? Be honest, even if that means saying yes. If the top 3 risks are all manageable, say so plainly
-instead of hedging.
+5. RED FLAG CHECK: Based only on those top 3 risks, is there anything serious enough that I should NOT use an AI tool for this
+task at all, or should only use it for part of the task? Be honest, even if that means saying yes. If the top 3 risks are all
+manageable, say so plainly instead of hedging.
 ```
+
+```[DESCRIBE THE TASK IN ONE OR TWO SENTENCES]``` replace with:
+- "creating a one-page lesson plan about world cultures for non-English speaking learners"
+- "designing a recruitment poster for volunteers"
+- "translating a community notice from English to Arabic"
+
+```[DESCRIBE THE AUDIENCE]``` replace with:
+- "students aged 5-9 in a refugee camp"
+- "the general public on social media"
+- "community members who speak Arabic as a first language"
+
 
 </details>
 <details>
@@ -105,7 +106,21 @@ instead of hedging.
 *   **Peer Review**: Before finalizing, could at least one other volunteer have reviewed the output?
     
 *   **Criticism Simulation**: Imagine a public criticism: what would a stranger attack in this output? Can that be fixed now?
-    
+
+
+## Base prompt
+
+```
+Review this output for use in our context. Identify:
+
+1. Any assumptions about normal life that don't apply
+2. Resource requirements that may be unrealistic
+3. Cultural sensitivities or potential misalignments
+4. Suggestions that could be harmful or burdensome
+5. Any information that appears outdated or stereotypical
+
+Be specific and practical in your critique.
+```    
 </details>
 
 <details>
