@@ -43,7 +43,33 @@ _📌 Highlight these routine checks during the first orientation._
 *   **Accuracy Verification**: Could a domain-knowledgeable person _(e.g., a cultural insider)_ verify cultural or regional accuracy where needed?
     
 *   **Security Risk**: Could any language, symbol, or metadata put learners, volunteers, or the organization at political or surveillance risk?
-    
+
+
+Prompt: 
+```
+I am a volunteer working on a humanitarian project. Help me think through the risks of a given task in plain, simple language.
+
+Here is the task: [DESCRIBE THE TASK IN ONE OR TWO SENTENCES, e.g. "creating a one-page lesson plan about world cultures for non-English speaking learners," "designing a recruitment poster for volunteers," "translating a community notice from English to Arabic"]
+
+Here is who will see or use the result: [DESCRIBE THE AUDIENCE, e.g. "students aged 5-9 in a refugee camp," "the general public on social media," "community members who speak Arabic as a first language"]
+
+Before answering, think through the risks privately first, the way a careful colleague would in a normal workplace - not like a legal disclaimer generator. Silently brainstorm a broad list of possible risks across the four categories below, then filter that list down: drop anything that is purely theoretical, extremely unlikely, or would only matter in an unusual edge case. Keep only risks that a reasonable, experienced person would actually flag as worth a moment's thought before proceeding. Do not show me your full brainstormed list or your filtering process - only show me the result.
+
+For EACH of the four categories below, give me your single TOP concern only - the one most likely and most consequential for THIS specific task and audience. If you genuinely cannot find a reasonable, non-trivial concern in a category, say "No significant concern identified" rather than inventing one. Keep each answer to 1-2 plain English sentences, no jargon.
+
+1. MISINFORMATION: What is the single fact, detail, or type of error I'm most likely to get wrong if I rely on you for this task?
+
+2. PRIVACY: What is the single most important thing I should avoid typing into this conversation, given who this task is for?
+
+3. WHO COULD BE HARMED: If this task goes wrong, who is the person or group most likely to be affected, and how?
+
+4. CULTURAL FIT: What is the single assumption you are most likely to be making that may not hold true for the audience described above?
+
+Then, across all four categories, name your TOP 3 CRITICAL RISKS overall - the ones that actually matter enough to act on, ranked by how serious they are. This list should be short by design; if you list more than 3, you have not filtered enough.
+
+5. RED FLAG CHECK: Based only on those top 3 risks, is there anything serious enough that I should NOT use an AI tool for this task at all, or should only use it for part of the task? Be honest, even if that means saying yes. If the top 3 risks are all manageable, say so plainly instead of hedging.
+```
+
 </details>
 <details>
   
