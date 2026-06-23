@@ -1,4 +1,4 @@
-# Facilitation Notes: ``Vignette 4 - Urgent Recruitment Poster''
+# Facilitation Notes: "Vignette 4 - Urgent Recruitment Poster"
 
 ## Overview
 This vignette simulates a common grassroots volunteer scenario: receiving an urgent, detailed request from a peer to create a recruitment poster with minimal time for discussion. The exercise demonstrates how SAFER can be applied even under time pressure, with emphasis on rapid risk assessment and the Reject principle as a legitimate protective choice.
