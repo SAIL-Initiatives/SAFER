@@ -1,4 +1,4 @@
-# SAFER: Facilation prompts
+# SAFER: Facilitation prompts
 
 <details>
   
