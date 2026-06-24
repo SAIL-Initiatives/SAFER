@@ -1,7 +1,9 @@
 plugins:
   - jekyll-relative-links
   - jekyll-remote-theme 
-  
+
+remote_theme: cotes2020/jekyll-theme-chirpy
+
 relative_links:
   enabled: true
   collections: false
@@ -13,8 +15,15 @@ include:
 
 markdown: GFM
 show_downloads: false
-remote_theme: cotes2020/jekyll-theme-chirpy
-#theme:  jekyll-theme-architect
 title: "Before you prompt"
 
+# theme:  jekyll-theme-architect
 
+
+# 👈 GET RID OF THE RIGHT PANEL GLOBALLY
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      hidetoc: true
