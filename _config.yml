@@ -12,6 +12,8 @@ include:
 
 markdown: GFM
 show_downloads: false
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme:  jekyll-theme-architect
 title: "Before you prompt"
-#theme:  jekyll-theme-architect
+
+#remote_theme: cotes2020/jekyll-theme-chirpy
+
