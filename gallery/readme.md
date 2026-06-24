@@ -1,7 +1,7 @@
 
-1) thaura.ai
+# [thaura.ai](https://thaura.ai)
 
-3) manus.im
+# [manus.im](https://manus.im)
 
 ```
 The font's height must be no smaller than 1-fifth of the slide's height.
