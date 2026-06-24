@@ -12,5 +12,6 @@ include:
 
 markdown: GFM
 show_downloads: false
-theme:  jekyll-theme-architect
-title: "Before you prompt: SAFER principles for Grassroots Humanitarian AI Use"
+remote_theme: cotes2020/jekyll-theme-chirpy
+title: "Before you prompt"
+#theme:  jekyll-theme-architect
