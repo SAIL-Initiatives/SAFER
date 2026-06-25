@@ -16,7 +16,7 @@ include:
 markdown: GFM
 show_downloads: false
 title: "Before you prompt"
-layout: default
+ 
 
 theme: jekyll-theme-cayman
 # jekyll-theme-cayman
