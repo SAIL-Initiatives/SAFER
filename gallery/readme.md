@@ -1,6 +1,8 @@
 
 # [thaura.ai](https://thaura.ai)
 
+[Example output of copyediting](thaura_output.html)
+
 # [manus.im](https://manus.im)
 
 ```
