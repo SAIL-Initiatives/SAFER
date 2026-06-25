@@ -17,7 +17,7 @@ markdown: GFM
 show_downloads: false
 title: "Before you prompt"
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-cayman
 # jekyll-theme-cayman
 
 # 👈 GET RID OF THE RIGHT PANEL GLOBALLY
