@@ -1,24 +1,18 @@
 plugins:
   - jekyll-relative-links
-  
-#  - jekyll-remote-theme 
-#remote_theme: cotes2020/jekyll-theme-chirpy
 
 relative_links:
   enabled: true
   collections: false
   
-include:
-  - _config.yml
+include: 
   - README.md
   - LICENSE.md
 
 markdown: GFM
 show_downloads: false
 title: "Before you prompt"
- 
 
 theme: jekyll-theme-cayman
-# jekyll-theme-cayman
 
 
