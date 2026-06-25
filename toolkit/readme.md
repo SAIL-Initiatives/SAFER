@@ -1,6 +1,4 @@
 
-[Home](https://sail-initiatives.github.io/SAFER/)
-
 # SAFER-codesign live sessions
 
 
